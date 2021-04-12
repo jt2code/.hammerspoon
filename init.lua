@@ -17,6 +17,6 @@ hs.hotkey.bind({"alt"}, "o", function()
     name = device.name
     volume = device.volume
   end
-  hs.alert.show(name .. " ~> " .. volume)
+  hs.alert.show(name .. " ~> " .. math.floor(volume))
 end)
 
